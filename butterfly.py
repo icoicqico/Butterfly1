@@ -5,7 +5,7 @@ import cupy as cp
 #load the trained model, I fine tune the pretrained model, perform transfer learning by training the butterfly class.
 detect_fn = tf.saved_model.load('butterfly_out/saved_model')
 # load the butterfly video
-cap = cv2.VideoCapture("/home/jason/Downloads/in.mp4")
+cap = cv2.VideoCapture("in.mp4")
 #label list, we only have one class butterfly
 category_index = {
     1: {'id': 1, 'name': 'butterfly'},}
