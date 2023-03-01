@@ -12,4 +12,4 @@ cupy
 
 pip install cupy-cuda11x
 
-I didn't make requirement.txt since some packages have to built from source.
+I didn't make requirement.txt since some packages have to build from source.
